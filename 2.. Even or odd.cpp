@@ -1,0 +1,18 @@
+#include<stdio.h>
+int EvenorOdd(int num){
+	if(num % 2 == 0){
+		printf("the number is even:");}
+		else
+		{
+			printf("the number  is odd:");
+		}
+	}
+
+int main()
+{
+	int num;
+	printf("enter the number:");
+	scanf("%d",&num);
+	EvenorOdd(num);
+	return 0;
+}
